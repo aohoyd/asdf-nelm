@@ -13,5 +13,5 @@ mkdir -p "$ASDF_DOWNLOAD_PATH"
 # TODO: Adapt this to proper extension and adapt extracting strategy.
 release_file="$ASDF_DOWNLOAD_PATH/nelm"
 
-# Download tar.gz file to the download directory
+# Download file to the download directory
 download_release "$ASDF_INSTALL_VERSION" "$release_file"
